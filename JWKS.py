@@ -6,7 +6,8 @@ from flask import jsonify
 from flask import request
 
 import rsa
-from datetime import datetime, timedelta
+from datetime import datetime
+from datetime import timedelta
 
 #Import JWT extension of Flask Library
 from flask_jwt_extended import create_access_token
